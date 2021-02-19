@@ -1,0 +1,3 @@
+#!/bin/sh
+  #dmenu-recent-aliases | 
+  dmenu_path | dmenu "$@" | ${SHELL:-"/bin/sh"} &
